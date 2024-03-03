@@ -20,6 +20,7 @@
                 font-size: 70px;
                 font-weight: 100;
                 color: rgb(205, 184, 227);
+                padding-top: 30px;
             }
         }
         
@@ -27,7 +28,6 @@
     .listContainer{
         flex: 1;
         max-width: 1366px;
-        margin: auto;
         display: flex;
         margin-bottom: 50px;
         margin-left: 10px;
