@@ -18,12 +18,12 @@
 
         span {
             font-weight: bold;
+            cursor: pointer;
         }
 
         .navItems {
             display: flex;
             align-items: center;
-            /* Ensure vertical alignment */
         }
 
         .navItem {
