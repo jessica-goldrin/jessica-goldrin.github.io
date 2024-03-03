@@ -15,8 +15,9 @@ const Resume = () => {
                     <h3>Arctic Wolf Networks, Jan 2024 - April 2024</h3>
                     <div className="technologies">
                         <div className="technology-box">Kafka</div>
-                        <div className="technology-box">AWS</div>
                         <div className="technology-box">Go</div>
+                        <div className="technology-box">AWS</div>
+                        <div className="technology-box">Kubernetes</div>
                     </div>
                     <p>
                         Successfully migrated a vital repository from AWS SDK for Go V1 to V2, entailing code adaptation for compatibility. Conducted necessary refactoring, consulting documentation for guidance on addressing V1-specific tools absent in V2
