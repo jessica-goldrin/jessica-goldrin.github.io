@@ -20,8 +20,7 @@ const Resume = () => {
                         <div className="technology-box">Kubernetes</div>
                     </div>
                     <p>
-                        Successfully migrated a vital repository from AWS SDK for Go V1 to V2, entailing code adaptation for compatibility. Conducted necessary refactoring, consulting documentation for guidance on addressing V1-specific tools absent in V2
-                        <br />Resolved system crashes by addressing a Kafka offset commitment issue, ensuring offsets are not committed in case of failed workflow initiation. Implemented robust error handling for graceful program termination and validated the solution through unit testing, replicating error conditions
+                    I succesfully migrated a critical repository from AWS SDK for Go V1 to V2, involving intricate code adaptation and comprehensive refactoring. Additionally, I resolved system crashes by addressing a Kafka offset commitment issue, ensuring proper handling in case of failed workflow initiation. I further enhanced the system's reliability by implementing robust error handling, validated through thorough unit testing to replicate error conditions.
                     </p>
                 </div>
                 <div className="box">
@@ -32,12 +31,7 @@ const Resume = () => {
                         <div className="technology-box">Android SDK</div>
                     </div>
                     <p>
-                        Implemented highly requested drag and drop functionality for list items
-                        <br />Redesigned UI according to Figma specification by adding and removing UI elements, and altering layouts to increase visual appeal and improve user experience
-                        <br />Transformed UI to facilitate smoother navigation between dialogs and to correct popup flow
-                        <br />Authored code which constructed and displayed lists modelled on back-end data
-                        <br />Investigated and resolved data loss
-
+                        I implemented a high-requested drag-and-drop functionality for list items and redesigned the UI based on Figma specifications, enhancing visual appeal and user experience. Additional improvements included optimizing UI navigation, constructing dynamic lists from backend data, and effectively addressing data loss concerns.
                     </p>
                 </div>
                 <div className="box">
@@ -48,11 +42,7 @@ const Resume = () => {
                         <div className="technology-box">Android SDK</div>
                     </div>
                     <p>
-                        Improved functionality and cosmetic appearance of mobile radio and news apps
-                        <br />Located and removed faulty files to make weather icons across apps consistent
-                        <b></b>Resolved crash that occurred when user tried to share video with contacts
-                        <br />Investigated why feed did not load on first opening of some apps
-
+                        I enhanced the functionality and aesthetic appeal of mobile radio and news apps, ensuring a consistent visual experience by removing faulty files affecting weather icons. Additionally, I successfully resolved a crash issue associated with video sharing and investigated and addressed challenges related to the initial feed loading in certain apps, ensuring overall improved performance and user satisfaction.
                     </p>
                 </div>
             </motion.div>

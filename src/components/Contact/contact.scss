@@ -13,13 +13,23 @@
         gap: 20px;
         font-weight: 200;
         margin-top: 40px;
+        text-align: center;
+        color: rgb(205, 184, 227);
 
         .title{
 
             h1{
                 font-size: 70px;
                 font-weight: 100;
-                color: rgb(205, 184, 227);
+                margin-bottom: 10px;
+            }
+
+            h2{
+                margin-bottom: 20px;
+            }
+
+            h3{
+                margin-bottom: 10px;
             }
         }
         
