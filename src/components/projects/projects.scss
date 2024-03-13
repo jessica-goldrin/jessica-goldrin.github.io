@@ -1,0 +1,74 @@
+.projects{
+    background: #191975;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .textContainer{
+        flex: 1;
+        align-self: center;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-weight: 200;
+        margin-top: 40px;
+
+        .title{
+
+            h1{
+                font-size: 70px;
+                font-weight: 100;
+                color: rgb(205, 184, 227);
+                padding-top: 30px;
+            }
+        }
+        
+    }
+    .listContainer{
+        flex: 1;
+        max-width: 1366px;
+        display: flex;
+        margin-bottom: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        .box{
+            flex: 1;
+            height: 280px;
+            padding: 25px;
+            border: 0.5px solid rgb(205, 184, 227);
+            display: flex;
+            flex-direction: column;
+            margin-bottom: auto;
+
+            h2{
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+
+            h3{
+                color: rgb(205, 184, 227);
+                font-weight: 250;
+                margin-bottom: 10px;
+            }
+
+            .technologies {
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 10px;
+            }
+        
+            .technology-box {
+                padding: 5px;
+                margin-right: 10px;
+                border: 1px solid rgb(205, 184, 227);
+                color: rgb(205, 184, 227);
+            }
+
+            p{
+                font-weight: 500;
+            }
+        }
+    }
+}
