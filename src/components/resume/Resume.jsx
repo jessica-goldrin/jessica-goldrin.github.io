@@ -1,9 +1,24 @@
 import "./resume.scss"
 import { motion } from "framer-motion"
 
+const textVariants = {
+    initial: {
+        x: -500,
+        opacity: 0,
+    },
+    animate: {
+        x: 0,
+        opacity: 1,
+        transition: {
+            duration:1,
+            staggerChildren:0.1
+        },
+    },
+};
+
 const Resume = () => {
     return (
-        <motion.div className="resume">
+        <motion.div className="resume" variants={textVariants} initial="initial" animate="animate">
             <motion.div className="textContainer">
                 <div className="title">
                     <h1>Work Experience</h1>

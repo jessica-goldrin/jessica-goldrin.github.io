@@ -1,6 +1,21 @@
 import "./contact.scss"
 import { motion } from "framer-motion"
 
+const textVariants = {
+    initial: {
+        x: -500,
+        opacity: 0,
+    },
+    animate: {
+        x: 0,
+        opacity: 1,
+        transition: {
+            duration:1,
+            staggerChildren:0.1
+        },
+    },
+};
+
 const Contact = () => {
     const openLinkedIn = () => {
         const linkedinURL = 'http://www.linkedin.com/in/jessica-goldrin';
@@ -8,7 +23,7 @@ const Contact = () => {
     };
 
     return (
-        <motion.div className="resume">
+        <motion.div className="contact" variants={textVariants} initial="initial" animate="animate">
             <motion.div className="textContainer">
                 <div className="title">
                     <h1>Contact me</h1>

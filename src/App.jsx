@@ -5,6 +5,7 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Resume from "./components/resume/resume";
 import Parallax from "./components/parallax/Parallax";
 import Contact from "./components/Contact/Contact";
+import Projects from "./components/projects/Projects";
 
 const App = () => {
   return <div>
@@ -15,7 +16,9 @@ const App = () => {
     <section id="Work Experience">
       <Resume />
     </section>
-    <section id="Side Projects"><Parallax type="side projects" /></section>
+    <section id="Side Projects">
+      <Projects />
+    </section>
     <section id="Contact">
       <Contact />
     </section>
