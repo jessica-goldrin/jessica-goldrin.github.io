@@ -1,9 +1,7 @@
 import "./app.scss"
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
-import Sidebar from "./components/sidebar/Sidebar";
 import Resume from "./components/resume/resume";
-import Parallax from "./components/parallax/Parallax";
 import Contact from "./components/Contact/Contact";
 import Projects from "./components/projects/Projects";
 
