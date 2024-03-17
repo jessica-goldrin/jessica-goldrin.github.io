@@ -4,14 +4,17 @@ import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
     const openLinkedIn = () => {
-        // Replace 'your-linkedin-profile-url' with your actual LinkedIn profile URL
         const linkedinURL = 'http://www.linkedin.com/in/jessica-goldrin';
         window.open(linkedinURL, '_blank');
     };
 
+    const openGithub = () => {
+        const githubURL = 'https://github.com/jessica-goldrin';
+        window.open(githubURL, '_blank');
+    };
+
     const openResume = () => {
-        // Replace 'path/to/your/resume.pdf' with the actual path to your PDF file
-        const pdfURL = '/Resume 2023.pdf';
+        const pdfURL = '/Resume 2024.pdf';
         window.open(pdfURL, '_blank');
     };
 
@@ -36,7 +39,12 @@ const Navbar = () => {
                     </ScrollLink>
                     <motion.button className="navItem" initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }}>
                         <div className="social">
-                            <a href="#" onClick={openLinkedIn}><img src="/linkedin.png" alt="" /></a>
+                            <a href="#" onClick={openLinkedIn}><img src="/In-White-26.png" alt="" /></a>
+                        </div>
+                    </motion.button>
+                    <motion.button className="navItem" initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }}>
+                        <div className="social">
+                            <a href="#" onClick={openGithub}><img src="/github-mark-white.png" alt="" /></a>
                         </div>
                     </motion.button>
                 </div>
