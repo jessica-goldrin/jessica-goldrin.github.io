@@ -10,13 +10,14 @@ const textVariants = {
         x: 0,
         opacity: 1,
         transition: {
-            duration:1,
-            staggerChildren:0.1
+            duration: 1,
+            staggerChildren: 0.1
         },
     },
 };
 
 const Resume = () => {
+
     return (
         <motion.div className="resume" variants={textVariants} initial="initial" animate="animate">
             <motion.div className="textContainer">
@@ -35,7 +36,7 @@ const Resume = () => {
                         <div className="technology-box">Kubernetes</div>
                     </div>
                     <p>
-                    I succesfully migrated a critical repository from AWS SDK for Go V1 to V2, involving intricate code adaptation and comprehensive refactoring. Additionally, I resolved system crashes by addressing a Kafka offset commitment issue, ensuring proper handling in case of failed workflow initiation. I further enhanced the system's reliability by implementing robust error handling, validated through thorough unit testing to replicate error conditions.
+                        I succesfully migrated a critical repository from AWS SDK for Go V1 to V2, involving intricate code adaptation and comprehensive refactoring. Additionally, I resolved system crashes by addressing a Kafka offset commitment issue, ensuring proper handling in case of failed workflow initiation. I further enhanced the system's reliability by implementing robust error handling, validated through thorough unit testing to replicate error conditions.
                     </p>
                 </div>
                 <div className="box">
