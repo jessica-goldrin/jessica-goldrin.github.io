@@ -40,12 +40,12 @@ const Navbar = () => {
                     </ScrollLink>
                     <motion.button className="navItem" initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }}>
                         <div className="social">
-                            <a href="#" onClick={openLinkedIn}><img src="/portfolio/In-White-26.png" alt="" /></a>
+                            <a href="#" onClick={openLinkedIn}><img src="/portfolio/In_White_26.png" alt="" /></a>
                         </div>
                     </motion.button>
                     <motion.button className="navItem" initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }}>
                         <div className="social">
-                            <a href="#" onClick={openGithub}><img src="/portfolio/github-mark-white.png" alt="" /></a>
+                            <a href="#" onClick={openGithub}><img src="/portfolio/github_mark_white.png" alt="" /></a>
                         </div>
                     </motion.button>
                 </div>
