@@ -15,7 +15,7 @@ const Navbar = () => {
 
     const openResume = () => {
         // Replace 'path/to/your/resume.pdf' with the actual path to your PDF file
-        const pdfURL = '/portfolio/Resume_2024.pdf';
+        const pdfURL = '/Resume_2024.pdf';
         window.open(pdfURL, '_blank');
     };
 
