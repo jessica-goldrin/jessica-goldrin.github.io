@@ -10,7 +10,7 @@ const Navbar = () => {
 
     const openGithub = () => {
         const githubURL = 'https://github.com/jessica-goldrin';
-        window.open(githubURL, '_blank');
+        window.open(githubURL, '_blank'); 
     };
 
     const openResume = () => {
